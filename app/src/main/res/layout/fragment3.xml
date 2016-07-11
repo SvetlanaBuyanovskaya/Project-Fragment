@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_back2"
+        android:id="@+id/tv_nContact"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Contact Name"
+        android:textSize="20sp"
+        android:textColor="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nnn"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/tv_recName"
+        android:layout_below="@+id/tv_nContact"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Home"
+        android:text="Contact Phone Number"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_recName"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_recNumber"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/tv_Home"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_back2"
+        android:text="BACK"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="HOME"
+        android:textSize="20sp"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn_home"
+        android:padding="15dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:id="@+id/im_tel"
+        android:layout_alignBottom="@+id/tv_recNumber"
+        android:background="@drawable/ic_tel"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:text="SEND MESSAGE"
+        android:id="@+id/btn_sendM"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedbutton"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:text="SEND CONTACT"
+        android:id="@+id/btn_sendC"
+        android:layout_below="@+id/btn_sendM"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedbutton"/>
+</RelativeLayout>

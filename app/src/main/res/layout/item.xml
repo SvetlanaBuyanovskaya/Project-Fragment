@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_contact"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/im_View"
+        android:src="@drawable/icon_default2"
+        android:paddingLeft="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="7dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Name"
+        android:layout_toRightOf="@+id/im_View"
+        android:layout_alignTop="@+id/im_View"
+        android:text=""
+        android:padding="8dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="5dp"
+        android:background="#1E90FF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_number"
+        android:layout_alignBottom="@+id/im_View"
+        android:layout_toRightOf="@+id/im_View"
+        android:textSize="15dp"
+        android:text=""
+        android:layout_marginRight="5dp"
+        android:padding="8dp"
+        android:textStyle="italic"
+        android:textColor="@android:color/white"
+        android:gravity="left"
+        android:background="#1E90FF"/>
+
+</RelativeLayout>
